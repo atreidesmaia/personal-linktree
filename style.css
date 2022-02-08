@@ -28,7 +28,7 @@ body {
 
 a {
   display: block;
-  max-width: 400px;
+  max-width: 550px;
   margin: 0 auto 10px auto;
   padding: 2em 4em;
   color: #ddeaf8;
@@ -53,5 +53,6 @@ a:hover {
 }
 
 .sideFont {
+  padding: 0.5em;
   font-style: oblique;
 }
