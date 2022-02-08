@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Nixie+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+
+html {
+  font-family: "Nixie One", cursive;
+  box-sizing: border-box;
+  font-size: 100%;
+  text-align: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: white;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    333deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  min-height: 100vh;
+  letter-spacing: 0.1em;
+}
+
+a {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
+  padding: 2em 4em;
+  color: #ddeaf8;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ab53a0;
+}
+
+.theFont {
+  letter-spacing: 0.2em;
+  padding: 2em;
+  font-family: "Playfair Display", serif;
+}
+
+.subFont {
+  font-family: "Nixie One";
+}
+
+.sideFont {
+  font-style: oblique;
+}
